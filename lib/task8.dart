@@ -50,7 +50,7 @@ class Task8 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/images/burger.jpg',
+                      'assets/images/burger.png',
                       width: 140,
                       height: 120,
                       fit: BoxFit.cover,
@@ -124,7 +124,7 @@ class Task8 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/images/soup.jpg',
+                      'assets/images/soup.png',
                       width: 140,
                       height: 120,
                       fit: BoxFit.fill,
@@ -199,10 +199,13 @@ class Task8 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/images/drink.jpg',
-                      width: 140,
-                      height: 130,
+                      'assets/images/drink.png',
+                      width: 120,
+                      height: 140,
                       fit: BoxFit.fill,
+                    ),
+                    const SizedBox(
+                      height: 3,
                     ),
                     const Text(
                       'SOFT DRINK',
@@ -273,7 +276,7 @@ class Task8 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/images/beer.jpg',
+                      'assets/images/beer.png',
                       width: 140,
                       height: 130,
                       fit: BoxFit.fill,
@@ -348,17 +351,11 @@ class Task8 extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const SizedBox(
-                      height: 8,
-                    ),
                     Image.asset(
-                      'assets/images/pizza.jpg',
-                      width: 140,
-                      height: 130,
+                      'assets/images/pizza.png',
+                      width: 160,
+                      height: 150,
                       fit: BoxFit.fill,
-                    ),
-                    const SizedBox(
-                      height: 5,
                     ),
                     const Text(
                       'PIZZA',
@@ -368,7 +365,7 @@ class Task8 extends StatelessWidget {
                           fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(
-                      height: 5,
+                      height: 4,
                     ),
                     const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -426,8 +423,8 @@ class Task8 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/images/donut.jpg',
-                      width: 150,
+                      'assets/images/donut.png',
+                      width: 140,
                       height: 140,
                       fit: BoxFit.fill,
                     ),

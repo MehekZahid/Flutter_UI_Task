@@ -71,7 +71,7 @@ class Task10 extends StatelessWidget {
                 height: 200,
                 width: 350,
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 25, 138, 230),
+                  color: Color.fromARGB(255, 101, 166, 220),
                   borderRadius: BorderRadius.circular(25.0),
                 ),
                 child: Row(
@@ -137,12 +137,12 @@ class Task10 extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 6,
                     ),
                     Image.asset(
-                      'assets/images/shoe2.jpg',
-                      height: 150,
-                      width: 120,
+                      'assets/images/shoe4 (2).png',
+                      height: 200,
+                      width: 138,
                     ),
                   ],
                 ),
@@ -191,7 +191,7 @@ class Task10 extends StatelessWidget {
                               height: 200,
                               width: 145,
                               decoration: BoxDecoration(
-                                color: const Color.fromARGB(255, 25, 138, 230),
+                                color: Color.fromARGB(255, 103, 171, 226),
                                 borderRadius: BorderRadius.circular(20.0),
                               ),
                               child: Column(
@@ -202,13 +202,13 @@ class Task10 extends StatelessWidget {
                                     child: Icon(
                                       Icons.favorite,
                                       color: Colors.white,
-                                      size: 10,
+                                      size: 15,
                                     ),
                                   ),
                                   Image.asset(
-                                    'assets/images/shoe7.jpg',
+                                    'assets/images/shoe2.png',
                                     height: 175,
-                                    width: 130,
+                                    width: 160,
                                   ),
                                 ],
                               ),
@@ -249,7 +249,7 @@ class Task10 extends StatelessWidget {
                               height: 200,
                               width: 145,
                               decoration: BoxDecoration(
-                                color: const Color.fromARGB(255, 25, 138, 230),
+                                color: Color.fromARGB(255, 103, 171, 226),
                                 borderRadius: BorderRadius.circular(20.0),
                               ),
                               child: Column(
@@ -260,13 +260,13 @@ class Task10 extends StatelessWidget {
                                     child: Icon(
                                       Icons.favorite,
                                       color: Colors.white,
-                                      size: 10,
+                                      size: 15,
                                     ),
                                   ),
                                   Image.asset(
-                                    'assets/images/shoe6.jpg',
+                                    'assets/images/shoe3.png',
                                     height: 175,
-                                    width: 130,
+                                    width: 145,
                                   ),
                                 ],
                               ),
